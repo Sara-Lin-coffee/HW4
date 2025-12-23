@@ -1,5 +1,7 @@
 # TAICA AIGC 作業 Demo：AIGC 課程小助教（文字摘要＋測驗＋封面圖）
 
+網址: https://taica-aigc-agent-demo.streamlit.app/
+
 這個專題示範一個「AIGC 課程小助教 Agent」：把你貼上的課堂筆記/講義，自動生成：
 1) 300 字內摘要（可作為 report 的摘要素材）  
 2) 10 題小測驗（含答案）  
@@ -21,10 +23,8 @@ streamlit run app.py
 2. 到 https://share.streamlit.io/ 連結 GitHub repo → Deploy
 3. 在 Streamlit 的 **Secrets** 加上：
 ```toml
-OPENAI_API_KEY="你的key"
-```
 
-> 沒有 key 也能開啟介面，但會進入「示範模式」不呼叫 API。
+
 
 ## 檔案結構
 - `app.py`：Streamlit 介面與流程
